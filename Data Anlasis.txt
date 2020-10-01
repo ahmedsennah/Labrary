@@ -1,0 +1,83 @@
+- Daily Movment 	--- (Add oPretion - Export Exel fiel , Csv )
+- Books			--- (Add Book - Edit - Remove - All Books - On Book - Serch - Export - Import)
+- Clients 		--- (Add - Edit - Export - Import - )
+- Reports :		--- (One client - Top 10 - ) 
+ - Client
+ - Books		--- (One Book - Top 10) From - To
+ - Monthly Movment	--- (Export)
+ - From - to 
+
+- History  (admin) - (action)[Daily Movment]- Filtter - book - Client
+- Dashboard : Today Actions
+- Settings (Users- Permissions - Gmail- Baranch)  
+
+-Users  --- [admin , Employees Users]
+
+Opreations : 
+ - DateTime
+ - wihch Baranch
+ - Users
+
+
+books :
+
+- Title
+- Descriotion
+- Category
+- Code
+- Part-Order
+- Price
+- Puplisher
+- Auther
+- Image
+- Status
+- Date
+
+Clients : 
+- Name
+- Mail
+- Phone
+- date 
+- National_ID
+
+
+employee Users
+- Name
+- Mail
+- Phone
+- date 
+- National_ID
+-permissions
+
+
+
+Category :
+- Category name
+- parent_Category	
+
+Baranch
+
+-name
+-Location
+
+-maily_movment
+book
+client
+type (rent - retrive)
+date
+barnch
+from to 
+
+
+- history
+  - user
+  - action
+  - table
+  - date
+  - branch
+
+
+
+
+
+

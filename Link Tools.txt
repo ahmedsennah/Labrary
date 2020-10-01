@@ -1,0 +1,8 @@
+qrc :
+
+
+https://github.com/guinslym/pyqt5-example/blob/master/qtdemo/qtdemo.qrc
+
+
+
+
