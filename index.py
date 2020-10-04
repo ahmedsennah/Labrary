@@ -18,6 +18,9 @@ class Main(QMainWindow, MainUI):
         self.Db_Connect()
         self.Handel_Bouttons()
         self.UI_Changes()
+        self.Open_Daily_Movment_Tab()
+
+
 
 
 
@@ -49,6 +52,7 @@ class Main(QMainWindow, MainUI):
         self.CmdAddBranch.clicked.connect(self.Add_Branch)
         self.CmdAddPuplisher.clicked.connect(self.Add_Puplisher)
         self.CmdAddAuthar.clicked.connect(self.Add_Author)
+        self.CmdAddctegory.clicked.connect(self.Add_Category)
 
 
 
@@ -172,7 +176,13 @@ class Main(QMainWindow, MainUI):
 
     def Add_Category(self):
         ## Add Category
-        pass
+        Category_Name = self.TXTCategoryName.text()
+        Pearint_Category = 1
+        self.cur.execute('''
+        INSERT INTO category
+        (Category_name, parent_Category)
+        ''', (Category_Name, Pearint_Category))
+        self.db.commit()
 
     def Add_Puplisher(self):
         ## Add Puplisher
