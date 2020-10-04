@@ -19,6 +19,7 @@ class Main(QMainWindow, MainUI):
         self.Handel_Bouttons()
         self.UI_Changes()
         self.Open_Daily_Movment_Tab()
+        self.Show_all_Category()
 
 
 
@@ -174,15 +175,19 @@ class Main(QMainWindow, MainUI):
         self.db.commit()
         print('add sucsessfuly')
 
+    
     def Add_Category(self):
         ## Add Category
         Category_Name = self.TXTCategoryName.text()
         Pearint_Category = 1
         self.cur.execute('''
         INSERT INTO category
-        (Category_name, parent_Category)
+        (Category_name , parent_Category)
+        VALUES(%s, %s)
         ''', (Category_Name, Pearint_Category))
         self.db.commit()
+        self.Show_all_Category(
+        )
 
     def Add_Puplisher(self):
         ## Add Puplisher
@@ -205,6 +210,26 @@ class Main(QMainWindow, MainUI):
         VALUES(%s, %s)
         ''', (Author_Name, Author_Location))
         self.db.commit()
+
+
+    def Show_all_Category(self):
+        self.comboBox_Category.clear()
+        self.cur.execute('''
+        SELECT Category_name  FROM category
+        ''')
+
+        categores = self.cur.fetchall()
+        
+        for category in categores :
+            self.comboBox_Category.addItem(str(category[0]))
+
+ 
+
+
+
+
+
+
 
 
 #########################################
