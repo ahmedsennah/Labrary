@@ -135,7 +135,7 @@ QPushButton
     border-style: solid;
     border-radius: 6;
     padding: 3px;
-    font-size: 12px;
+    font-size: 20px;
     padding-left: 5px;
     padding-right: 5px;
     min-width: 40px;
@@ -569,7 +569,7 @@ QAbstractSpinBox {
      <string notr="true">font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>8</number>
     </property>
     <widget class="QWidget" name="tab_9">
      <attribute name="title">
@@ -725,7 +725,7 @@ QAbstractSpinBox {
       </property>
       <property name="icon">
        <iconset>
-        <normaloff>icons/ShowPass.png</normaloff>icons/ShowPass.png</iconset>
+        <normaloff>C:/Users/asenah.ABUSENNAH/.designer/backup/icons/ShowPass.png</normaloff>C:/Users/asenah.ABUSENNAH/.designer/backup/icons/ShowPass.png</iconset>
       </property>
      </widget>
     </widget>
@@ -916,7 +916,7 @@ QAbstractSpinBox {
        </property>
       </item>
      </widget>
-     <widget class="QPushButton" name="pushButton_7">
+     <widget class="QPushButton" name="CmdAddBook">
       <property name="geometry">
        <rect>
         <x>780</x>
@@ -1013,7 +1013,7 @@ QAbstractSpinBox {
        </font>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="tab_10">
        <attribute name="title">
@@ -1740,7 +1740,7 @@ QAbstractSpinBox {
        </rect>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab_13">
        <attribute name="title">
@@ -2359,7 +2359,7 @@ QAbstractSpinBox {
        </rect>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab_17">
        <attribute name="title">
@@ -2771,7 +2771,7 @@ QAbstractSpinBox {
        <enum>Qt::LeftToRight</enum>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab_16">
        <attribute name="title">
@@ -2886,7 +2886,7 @@ QAbstractSpinBox {
          <property name="title">
           <string>Add New Branch</string>
          </property>
-         <widget class="QLineEdit" name="lineEdit_24">
+         <widget class="QLineEdit" name="TXTBranchName">
           <property name="geometry">
            <rect>
             <x>10</x>
@@ -2902,7 +2902,7 @@ QAbstractSpinBox {
            <string>Branch Name</string>
           </property>
          </widget>
-         <widget class="QLineEdit" name="lineEdit_25">
+         <widget class="QLineEdit" name="TXTBranchCode">
           <property name="geometry">
            <rect>
             <x>283</x>
@@ -2918,7 +2918,7 @@ QAbstractSpinBox {
            <string>Branch Code</string>
           </property>
          </widget>
-         <widget class="QLineEdit" name="lineEdit_26">
+         <widget class="QLineEdit" name="TXTBranchLocation">
           <property name="geometry">
            <rect>
             <x>556</x>
@@ -2934,7 +2934,7 @@ QAbstractSpinBox {
            <string>Branch Location</string>
           </property>
          </widget>
-         <widget class="QPushButton" name="pushButton_20">
+         <widget class="QPushButton" name="CmdAddBranch">
           <property name="geometry">
            <rect>
             <x>833</x>
@@ -2973,7 +2973,7 @@ QAbstractSpinBox {
         <property name="title">
          <string>Add Puplisher</string>
         </property>
-        <widget class="QLineEdit" name="lineEdit_27">
+        <widget class="QLineEdit" name="TXTpuplisherName">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -2989,7 +2989,7 @@ QAbstractSpinBox {
           <string>Puplisher Name</string>
          </property>
         </widget>
-        <widget class="QLineEdit" name="lineEdit_29">
+        <widget class="QLineEdit" name="TXTpuplisherLocation">
          <property name="geometry">
           <rect>
            <x>285</x>
@@ -3008,7 +3008,7 @@ QAbstractSpinBox {
           <string>Puplisher Location</string>
          </property>
         </widget>
-        <widget class="QPushButton" name="pushButton_21">
+        <widget class="QPushButton" name="CmdAddPuplisher">
          <property name="geometry">
           <rect>
            <x>833</x>
@@ -3046,7 +3046,7 @@ QAbstractSpinBox {
         <property name="title">
          <string>Add Author</string>
         </property>
-        <widget class="QLineEdit" name="lineEdit_30">
+        <widget class="QLineEdit" name="TXTAuthorName">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -3062,7 +3062,7 @@ QAbstractSpinBox {
           <string>Author Name</string>
          </property>
         </widget>
-        <widget class="QLineEdit" name="lineEdit_32">
+        <widget class="QLineEdit" name="TXTAuthorLocation">
          <property name="geometry">
           <rect>
            <x>283</x>
@@ -3078,7 +3078,7 @@ QAbstractSpinBox {
           <string>Author Location</string>
          </property>
         </widget>
-        <widget class="QPushButton" name="pushButton_22">
+        <widget class="QPushButton" name="CmdAddAuthar">
          <property name="geometry">
           <rect>
            <x>833</x>
@@ -3116,7 +3116,7 @@ QAbstractSpinBox {
         <property name="title">
          <string>Add Category</string>
         </property>
-        <widget class="QLineEdit" name="lineEdit_31">
+        <widget class="QLineEdit" name="TXTCategoryName">
          <property name="geometry">
           <rect>
            <x>10</x>
@@ -3132,7 +3132,7 @@ QAbstractSpinBox {
           <string>Category Name</string>
          </property>
         </widget>
-        <widget class="QPushButton" name="pushButton_23">
+        <widget class="QPushButton" name="CmdAddctegory">
          <property name="geometry">
           <rect>
            <x>833</x>
@@ -3145,7 +3145,7 @@ QAbstractSpinBox {
           <string>Add Category</string>
          </property>
         </widget>
-        <widget class="QComboBox" name="comboBox_13">
+        <widget class="QComboBox" name="comboBox_Category">
          <property name="geometry">
           <rect>
            <x>450</x>
@@ -3965,7 +3965,7 @@ QAbstractSpinBox {
      </widget>
     </widget>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="CmdToday">
     <property name="geometry">
      <rect>
       <x>16</x>
@@ -4008,7 +4008,7 @@ QAbstractSpinBox {
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="CmdBook">
     <property name="geometry">
      <rect>
       <x>15</x>
@@ -4049,44 +4049,7 @@ QAbstractSpinBox {
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
-    <property name="geometry">
-     <rect>
-      <x>14</x>
-      <y>266</y>
-      <width>210</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>52</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true"/>
-    </property>
-    <property name="text">
-     <string>Dashboard</string>
-    </property>
-    <property name="icon">
-     <iconset resource="icons.qrc">
-      <normaloff>:/icons/dashboard.png</normaloff>:/icons/dashboard.png</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>50</width>
-      <height>50</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="CmdClient">
     <property name="geometry">
      <rect>
       <x>15</x>
@@ -4123,7 +4086,7 @@ QAbstractSpinBox {
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="CmdReport">
     <property name="geometry">
      <rect>
       <x>14</x>
@@ -4157,7 +4120,7 @@ QAbstractSpinBox {
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="CmdHistory">
     <property name="geometry">
      <rect>
       <x>15</x>
@@ -4194,7 +4157,7 @@ QAbstractSpinBox {
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="CmdSetting">
     <property name="geometry">
      <rect>
       <x>13</x>
@@ -4233,6 +4196,28 @@ QAbstractSpinBox {
       <width>30</width>
       <height>30</height>
      </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CmdDashBoard">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>264</y>
+      <width>210</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>DashBorad</string>
+    </property>
+    <property name="icon">
+     <iconset resource="icons.qrc">
+      <normaloff>:/icons/dashboard.png</normaloff>:/icons/dashboard.png</iconset>
     </property>
    </widget>
   </widget>
