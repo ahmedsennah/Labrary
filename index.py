@@ -189,7 +189,13 @@ class Main(QMainWindow, MainUI):
         ## Add Author
         Author_Name = self.TXTAuthorName.text()
         Author_Location = self.TXTAuthorLocation.text()
-        
+        self.cur.execute('''
+        INSERT INTO author
+        (name , location)
+        VALUES(%s, %s)
+        ''', (Author_Name, Author_Location))
+        self.db.commit()
+
 
 #########################################
 ## Employee Users User
